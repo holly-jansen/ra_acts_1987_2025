@@ -1,0 +1,284 @@
+{
+  "raw_archive_cards": 5724,
+  "distinct_ra": 5691,
+  "raw_house_bill_links": 5689,
+  "matched_unique": 5681,
+  "unmatched_or_held": 8,
+  "master_rows": 149474,
+  "enriched_rows": 149474,
+  "linked_distinct_master_bills": 5681,
+  "metadata_conflict_laws": 6,
+  "coverage_statement": "Observed source HTML only. Unmatched bill != not enacted. No approval dates inferred.",
+  "master_sha256": "7fdf49ef02d177502938a8a7c21d5a39bc7b23ae62709c57bd71b0a0ee1a6751",
+  "source_snapshots": [
+    {
+      "file": "page_0000.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts",
+      "sha256": "95eafd077ea8ac79c89a1311abcecc9a422ed570fcf2951c1e53626c2a71987e",
+      "cards": 500
+    },
+    {
+      "file": "page_0001.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts?page=1",
+      "sha256": "07adafe778ae886e24b5dc921df2127e58a6c70e8479aae6989c9e06430ef893",
+      "cards": 500
+    },
+    {
+      "file": "page_0002.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts?page=2",
+      "sha256": "ee483603d8b5541e00699e40173be44b6e47b5c0928c8e05749005adc49ded78",
+      "cards": 500
+    },
+    {
+      "file": "page_0003.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts?page=3",
+      "sha256": "f4e1aaf0560aa6615bc0dde0c9a2e7c2168c98088b9ed199b5ab56425829501c",
+      "cards": 500
+    },
+    {
+      "file": "page_0004.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts?page=4",
+      "sha256": "926d1cabb976fd815be07eac1b28df20c7a537c54686605f333cf706323c2df6",
+      "cards": 500
+    },
+    {
+      "file": "page_0005.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts?page=5",
+      "sha256": "5838e522fa3a8ea64970b32bbbffc743f9f94283e6051fe6d3f535587d006a04",
+      "cards": 500
+    },
+    {
+      "file": "page_0006.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts?page=6",
+      "sha256": "71cb93bea18fbad57510cb65816329bd0d734606bc78467e08d176f0c8781825",
+      "cards": 500
+    },
+    {
+      "file": "page_0007.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts?page=7",
+      "sha256": "30eec9a39d84a7aa530c64d7015e9f95a811b5a835a92ddaf4010db22931b0cc",
+      "cards": 500
+    },
+    {
+      "file": "page_0008.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts?page=8",
+      "sha256": "111208ed92efb7ee940724939dbbbbfac613e06bc1bee3f8c7298febd389cfa6",
+      "cards": 500
+    },
+    {
+      "file": "page_0009.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts?page=9",
+      "sha256": "5e531514d1097a6d4bf9b60d82bc0e1b77aae87a14743fa214c8bf99cf729ba7",
+      "cards": 500
+    },
+    {
+      "file": "page_0010.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts?page=10",
+      "sha256": "1cc04781b446107abcaa6a972237788e27273121bfbd1ff06ead272ecec9cfc4",
+      "cards": 500
+    },
+    {
+      "file": "page_0011.html",
+      "url": "https://www.congress.gov.ph/legislative-documents/republic-acts?page=11",
+      "sha256": "4f89dc81ade15c8c8fc51924e40f3e66722603ec4efd9be1ca415245e103c0c9",
+      "cards": 224
+    }
+  ],
+  "snapshot_check": {
+    "observed_pages": 12,
+    "page_numbers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "missing_pages": [],
+    "snapshot_scope": "SAVED_PAGES_ONLY_NOT_ARCHIVE_COMPLETENESS",
+    "pages": [
+      {
+        "page": 0,
+        "file": "page_0000.html",
+        "records": 500,
+        "first_ra": "RA12326",
+        "last_ra": "RA11830",
+        "congresses": [
+          "18",
+          "19",
+          "20"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 0,
+        "sha256": "95eafd077ea8ac79c89a1311abcecc9a422ed570fcf2951c1e53626c2a71987e"
+      },
+      {
+        "page": 1,
+        "file": "page_0001.html",
+        "records": 500,
+        "first_ra": "RA11829",
+        "last_ra": "RA11332",
+        "congresses": [
+          "17",
+          "18"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 2,
+        "sha256": "07adafe778ae886e24b5dc921df2127e58a6c70e8479aae6989c9e06430ef893"
+      },
+      {
+        "page": 2,
+        "file": "page_0002.html",
+        "records": 500,
+        "first_ra": "RA11331",
+        "last_ra": "RA10833",
+        "congresses": [
+          "16",
+          "17"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 0,
+        "sha256": "ee483603d8b5541e00699e40173be44b6e47b5c0928c8e05749005adc49ded78"
+      },
+      {
+        "page": 3,
+        "file": "page_0003.html",
+        "records": 500,
+        "first_ra": "RA10832",
+        "last_ra": "RA10351",
+        "congresses": [
+          "15",
+          "16"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 16,
+        "sha256": "f4e1aaf0560aa6615bc0dde0c9a2e7c2168c98088b9ed199b5ab56425829501c"
+      },
+      {
+        "page": 4,
+        "file": "page_0004.html",
+        "records": 500,
+        "first_ra": "RA10350",
+        "last_ra": "RA09856",
+        "congresses": [
+          "14",
+          "15"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 3,
+        "sha256": "926d1cabb976fd815be07eac1b28df20c7a537c54686605f333cf706323c2df6"
+      },
+      {
+        "page": 5,
+        "file": "page_0005.html",
+        "records": 500,
+        "first_ra": "RA09855",
+        "last_ra": "RA09357",
+        "congresses": [
+          "13",
+          "14"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 3,
+        "sha256": "5838e522fa3a8ea64970b32bbbffc743f9f94283e6051fe6d3f535587d006a04"
+      },
+      {
+        "page": 6,
+        "file": "page_0006.html",
+        "records": 500,
+        "first_ra": "RA09356",
+        "last_ra": "RA08860",
+        "congresses": [
+          "11",
+          "12",
+          "13"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 1,
+        "sha256": "71cb93bea18fbad57510cb65816329bd0d734606bc78467e08d176f0c8781825"
+      },
+      {
+        "page": 7,
+        "file": "page_0007.html",
+        "records": 500,
+        "first_ra": "RA08859",
+        "last_ra": "RA08360",
+        "congresses": [
+          "10",
+          "11"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 0,
+        "sha256": "30eec9a39d84a7aa530c64d7015e9f95a811b5a835a92ddaf4010db22931b0cc"
+      },
+      {
+        "page": 8,
+        "file": "page_0008.html",
+        "records": 500,
+        "first_ra": "RA08359",
+        "last_ra": "RA07860",
+        "congresses": [
+          "10",
+          "9"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 0,
+        "sha256": "111208ed92efb7ee940724939dbbbbfac613e06bc1bee3f8c7298febd389cfa6"
+      },
+      {
+        "page": 9,
+        "file": "page_0009.html",
+        "records": 500,
+        "first_ra": "RA07859",
+        "last_ra": "RA07360",
+        "congresses": [
+          "8",
+          "9"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 1,
+        "sha256": "5e531514d1097a6d4bf9b60d82bc0e1b77aae87a14743fa214c8bf99cf729ba7"
+      },
+      {
+        "page": 10,
+        "file": "page_0010.html",
+        "records": 500,
+        "first_ra": "RA07359",
+        "last_ra": "RA06860",
+        "congresses": [
+          "8"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 7,
+        "sha256": "1cc04781b446107abcaa6a972237788e27273121bfbd1ff06ead272ecec9cfc4"
+      },
+      {
+        "page": 11,
+        "file": "page_0011.html",
+        "records": 224,
+        "first_ra": "RA06859",
+        "last_ra": "RA06636",
+        "congresses": [
+          "8"
+        ],
+        "missing_congress": 0,
+        "missing_hb": 2,
+        "sha256": "4f89dc81ade15c8c8fc51924e40f3e66722603ec4efd9be1ca415245e103c0c9"
+      }
+    ]
+  },
+  "run_utc": "2026-10-03T22:29:29.306526+00:00",
+  "output_sha256": {
+    "01_RA_ARCHIVE_RECORDS.csv": "21aa122157e4197c1105b5f87b3e9e3d72f17d38e7afbcd72d097154f0697fea",
+    "02_REPUBLIC_ACTS.csv": "32a90a6409fc89d863d1f141118c02778743f93d409d5c39c1bd5c94480fd65c",
+    "03_RA_HOUSE_BILL_LINKS.csv": "c3463bbb6aa9815ac90ba39bc82cb556320e49866f082ce5610fd07fabc32187",
+    "04_HOUSE_BILL_MASTER_RA_ENRICHED.csv": "f210be01cd94c7ea34dca49e9e89092abd6d1565705bc7e17d3825a62daa3b33",
+    "05_LINKAGE_AND_METADATA_AUDIT.csv": "6df4653d5bbcec8618810a36f7125cc184e652431ac593e989141bc5a3e6543a"
+  }
+}
